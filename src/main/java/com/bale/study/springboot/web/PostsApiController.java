@@ -1,10 +1,12 @@
 package com.bale.study.springboot.web;
 
 import com.bale.study.springboot.service.posts.PostsService;
+import com.bale.study.springboot.web.dto.PostsListResponseDto;
 import com.bale.study.springboot.web.dto.PostsResponseDto;
 import com.bale.study.springboot.web.dto.PostsSaveRequestDto;
 import com.bale.study.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
